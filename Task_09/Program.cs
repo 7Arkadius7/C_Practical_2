@@ -6,10 +6,7 @@ Console.WriteLine($"Случайное число из отрезка 10-99 => {
 
 int firstDigit = number/10;
 int secondDigit = number % 10;
-
-if (firstDigit > secondDigit)
-{
-    Console.WriteLine($"Первое число {firstDigit}, больше второго числа {secondDigit}");
-}
-else
- Console.WriteLine($"Второе число {secondDigit}, больше первого числа {firstDigit}");
+if (firstDigit == secondDigit)
+Console.WriteLine("Числа равны");
+else if (firstDigit > secondDigit) Console.WriteLine($"Первое число {firstDigit}, больше второго числа {secondDigit}");
+else Console.WriteLine($"Второе число {secondDigit}, больше первого числа {firstDigit}");
