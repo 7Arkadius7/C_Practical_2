@@ -17,5 +17,6 @@ if (number < 100) Console.WriteLine($"Число {number} не имеет тре
 else
 {
     int result = ThirdDigit(number);
-    Console.WriteLine($"Число {result}");
+    Console.WriteLine();
+    Console.WriteLine($"Третья цифра числа {number} ->  {result}");
 }
